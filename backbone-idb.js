@@ -19,7 +19,7 @@
       return factory(_ || global._, Backbone || global.Backbone, IDBStore || global.IDBStore, $ || global.$, 'AMD');
     });
   } else {
-    factory(_, Backbone, IDBStore, global);
+    factory(_, Backbone, IDBStore, $ || jQuery, global);
   }
 }(this, function(_, Backbone, IDBStore, $, global) {
   'use strict';
