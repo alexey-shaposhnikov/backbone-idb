@@ -1,19 +1,26 @@
 {
   "name": "backbone-idb",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Backbone IndexedDB adapter with cross browser support via IDBWrapper",
   "license": "MIT",
-  "author": {
-    "name": "Vincent Mac",
-    "email": "vincent@simplicity.io",
-    "url": "http://simplicity.io"
-  },
+  "authors": [
+    {
+      "name": "Vincent Mac",
+      "email": "vincent@simplicity.io",
+      "url": "http://simplicity.io"
+    },
+    {
+      "name": "Alexey Shaposhnikov",
+      "email": "shaposhnikov@crystalnix.com",
+      "url": "http://crystalnix.com"
+    }
+  ],
   "main": "backbone-idb.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/vincentmac/backbone-idb.git"
+    "url": "git@github.com:Crystalnix/backbone-idb.git"
   },
-  "homepage": "http://github.com/vincentmac/backbone-idb",
+  "homepage": "https://github.com/Crystalnix/backbone-idb",
   "keywords": [
     "backbone",
     "indexeddb",
