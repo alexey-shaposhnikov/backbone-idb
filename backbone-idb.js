@@ -12,7 +12,7 @@
   'use strict';
   if (typeof exports === 'object' && typeof require === 'function') {
     // CommonJS Module - Register as a CommonJS Module 
-    module.exports = factory(require('underscore'), require('backbone'), require('idb-wrapper'), require('jquery'), 'CommonJS');
+    module.exports = factory(require('underscore'), require('backbone'), require('idb-wrapper'), require('jquery'), global);
   } else if (typeof define === 'function' && define.amd) {
     // AMD - Register as an anonymous module
     define(['underscore', 'backbone', 'jquery'], function(_, Backbone, $) {
@@ -21,7 +21,7 @@
   } else {
     factory(_, Backbone, IDBStore, $ || jQuery, global);
   }
-}(this, function(_, Backbone, IDBStore, $, global) {
+}(global || window, function(_, Backbone, IDBStore, $, global) {
   'use strict';
 
   // // Generate four random hex digits.
