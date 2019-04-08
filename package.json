@@ -8,11 +8,6 @@
       "name": "Vincent Mac",
       "email": "vincent@simplicity.io",
       "url": "http://simplicity.io"
-    },
-    {
-      "name": "Alexey Shaposhnikov",
-      "email": "shaposhnikov@crystalnix.com",
-      "url": "http://crystalnix.com"
     }
   ],
   "main": "backbone-idb.js",
